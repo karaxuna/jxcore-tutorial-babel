@@ -8,9 +8,7 @@ Assuming you already have installed JXcore from [downloads page](http://jxcore.c
 jx install babel -g
 ```
 
-Then write a code with newest features:
-
-Let's create custom stream using es6 classes and import feature:
+Then write a code with newest features. Create custom stream using es6 classes and import feature:
 
 ```javascript
 import { Writable } from 'stream';
