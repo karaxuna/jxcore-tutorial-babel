@@ -8,7 +8,7 @@ Assuming you already have installed JXcore from [downloads page](http://jxcore.c
 jx install babel -g
 ```
 
-Then write a code with newest features. Create custom stream using es6 classes and import feature:
+Let's see some of new features of es6. Create custom stream using class inheritance and import feature:
 
 ```javascript
 import { Writable } from 'stream';
@@ -48,4 +48,4 @@ Then run this file with JXcore:
 babel-node index.js
 ```
 
-That's it, you have JXcore code running with full es6 support.
+That's it, you have JXcore code running with full es6 support. See [babeljs page](https://babeljs.io/docs/learn-es2015/) to explore all features.
