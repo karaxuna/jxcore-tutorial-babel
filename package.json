@@ -1,0 +1,6 @@
+{
+    "name": "jxcore-tutorial-babel",
+    "description": "Running JXcore with ECMAScript 6 features using babel",
+    "version": "0.0.1",
+    "author": "Kakhaber Bazerashvili"
+}
