@@ -17,7 +17,7 @@ class CustomStream extends Writable {
         super();
     }
     _write(chunk, e, cb) {
-        console.log('chunk:', chunk.toString());
+        console.log('chunk:', chunk.toString()); // test
         cb();
     }
 }
@@ -31,15 +31,15 @@ Arrow function example:
 
 ```javascript
 var nums = [4, 5, 6].map(num => num + 1);
-console.log(nums);
+console.log(nums); // [5, 6, 7]
 ```
 
 Template string example:
 
 ```javascript
 var name = 'John';
-var template = `hello ${name}`;
-console.log(template);
+var template = `Hello ${name}`;
+console.log(template); // Hello John
 ```
 
 Then run this file with JXcore:
