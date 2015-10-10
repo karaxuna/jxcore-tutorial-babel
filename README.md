@@ -1,6 +1,6 @@
 ### Running JXcore with ECMAScript 6 features using babel
 
-ECMAScript 6 is the newest version of the ECMAScript standard. es6 brings classes, arrow functions, default parameters, generators and [much more](https://babeljs.io/docs/learn-es2015/). You can bring all this functionality in JXcore using babel, follow simple steps:
+ECMAScript 6 is the newest version of the ECMAScript standard. es6 brings classes, arrow functions, default parameters, generators and other [cool features](http://es6-features.org/). JXcore already has Mozilla SpiderMonkey (ES6 support) natively. However, you could also use babel for even more. To try out babel, follow simple steps:
 
 Assuming you already have installed JXcore from [downloads page](http://jxcore.com/downloads), the next step is to install babel module globally:
 
