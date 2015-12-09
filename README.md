@@ -64,11 +64,4 @@ $ babel-node index.js
 
 How do we know, that JXcore executed this code? Simply because babel was installed with jx install command.
 
-Alternatively you may also install babel locally and run the sample by calling JXcore explicitly:
-
-```bash
-$ jx install babel
-$ jx ./node_modules/.bin/babel-node index.js
-```
-
 That's it. See [babeljs page](https://babeljs.io/docs/learn-es2015/) to explore all the latest features.
